@@ -21,7 +21,7 @@ public class RoleConteller {
 	@Autowired
 	RoleMapper mapper;
 	
-	
+	//zheshiyigezhushi 
 	@RequestMapping("/hello")
 	public String role(Role role) {
 		role.setRoleId(12);
